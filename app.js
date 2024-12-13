@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
     res.send('Hello, This is a Node.js application.');
   });
 
-app.get("/test", async (req, res) => {
+app.get("/test", (req, res) => {
   try {
     // Simulate data fetching or processing logic
     const responseData = { message: "Hello, this is your JSON response!" };
