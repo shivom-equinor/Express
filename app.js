@@ -16,9 +16,9 @@ app.use(cors(corsOptions));
 // Routes
 
 app.get('/', (req, res) => {
-    res.send('Hello, Azure! This is a Node.js application.');
+    res.send('Hello, This is a Node.js application.');
   });
-  
+
 app.get("/test", async (req, res) => {
   try {
     // Simulate data fetching or processing logic
