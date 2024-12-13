@@ -19,10 +19,6 @@ app.get('/', (req, res) => {
     res.send('Hello,Azure! This is a Node.js application.');
   });
 
-  app.get('/test2', (req, res) => {
-    res.send('Hello, This is a Node.js application route 2.');
-  });
-
 app.get("/test", (req, res) => {
   try {
     // Simulate data fetching or processing logic
